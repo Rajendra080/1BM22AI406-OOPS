@@ -1,0 +1,20 @@
+from os import name
+class dog:
+  def __init__(self,name,size,bread='unkown',DOB='unkow'):
+    self.name = Noneame
+    self.size = Size
+    self.bread = Bread
+    self.dob = Dob
+
+def bark(self):
+    print(f'{self.name}bowwow bowwow')
+
+
+  name1=input("enter dog name")
+  size2=input(f"enter {name1} size: ")
+  bread1=input(f"enter{name1} bread: ")
+  dob1= input(f"enter{name1} dob: ")
+
+  dag1=dog(name1,size2,bread1,dob1)
+
+  dog1.bark()
