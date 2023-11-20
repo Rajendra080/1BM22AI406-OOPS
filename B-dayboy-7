@@ -1,0 +1,13 @@
+class Birthdayboy :
+  def __init__(self,name,age):  
+
+      self.name = name
+      self.age = age
+
+def birthady(self):
+ self.age+1
+
+raj = Birthdayboy('rajendra',20)
+
+print(raj.name)
+print(raj.age)
