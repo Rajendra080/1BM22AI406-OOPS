@@ -1,0 +1,8 @@
+class songs:
+   def __init__(self,lyrics):
+     self.lyr = lyrics
+
+BandeyaBaalinaBelakaagi = songs(['BandeyaBaalinaBelakaagi','Bandeya Premada Siriyaagi','Nanagaagi Nanna Jotheyaagi','Nanagaagi Nanna Jotheyaagi'])
+
+for i in BandeyaBaalinaBelakaagi.lyr:
+   print(i)
