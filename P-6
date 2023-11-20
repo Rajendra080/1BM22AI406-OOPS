@@ -1,0 +1,20 @@
+class student :
+   pass
+
+class marks   :
+
+  pass
+
+student1 = student()
+marks1 = marks()
+
+is_student_instance = isinstance(student1,student)
+is_marks_instance=isinstance(marks1,marks)
+
+is_student_subclass=issubclass(student,object)
+is_marks_subclass=issubclass(marks,object)
+
+print(f'student instance is an instance of class student?-->{is_student_instance}')
+print(f'marks instance is an instance of class marks?-->{is_marks_instance}')
+print(f'student subcalss is an subclass of object?-->{is_student_instance}')
+print(f'marks subcalss is an subclass of object?-->{is_marks_instance}')
